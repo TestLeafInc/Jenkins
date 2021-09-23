@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Development') {
+    stage('Development First') {
       steps {
         echo 'This is development'
         git(url: 'https://github.com/LeafPages/EyeManage', branch: 'master')
