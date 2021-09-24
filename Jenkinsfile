@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Development') {
       steps {
-        echo 'This is development too'
+        echo 'This is development'
         git(url: 'https://github.com/LeafPages/EyeManage', branch: 'master')
       }
     }
